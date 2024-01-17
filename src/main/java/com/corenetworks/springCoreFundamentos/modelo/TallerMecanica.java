@@ -2,7 +2,7 @@ package com.corenetworks.springCoreFundamentos.modelo;
 
 import org.springframework.stereotype.Component;
 
-@Component("miTallerMecanica")
+
 public class TallerMecanica implements ITaller {
 
 	@Override
