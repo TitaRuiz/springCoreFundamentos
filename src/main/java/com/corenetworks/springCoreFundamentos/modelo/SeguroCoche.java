@@ -5,10 +5,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 @Data
-
+@Component
 public class SeguroCoche {
 	//1. Atributos
-
+	@Autowired
+	@Qualifier("tm")
 	private ITaller taller;
 	private String aseguradora;
 	//2. M�todos

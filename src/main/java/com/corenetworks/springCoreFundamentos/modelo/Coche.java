@@ -3,7 +3,7 @@ package com.corenetworks.springCoreFundamentos.modelo;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-
+@Component
 public class Coche {
 
 	private String matricula;

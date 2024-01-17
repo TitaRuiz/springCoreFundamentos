@@ -1,8 +1,10 @@
 package com.corenetworks.springCoreFundamentos.modelo;
 
+import lombok.Data;
 import org.springframework.stereotype.Component;
 
-
+@Data
+@Component("tp")
 public class TallerPintura implements ITaller {
 
 	@Override
