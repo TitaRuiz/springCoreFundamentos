@@ -8,8 +8,7 @@ import org.springframework.stereotype.Component;
 
 public class SeguroCoche {
 	//1. Atributos
-	@Autowired
-	@Qualifier("miTallerPintura")
+
 	private ITaller taller;
 	private String aseguradora;
 	//2. M�todos

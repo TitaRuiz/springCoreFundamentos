@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 
 public class Coche {
-    @Value("1234abc")
+
 	private String matricula;
 	private String modelo;
 	
